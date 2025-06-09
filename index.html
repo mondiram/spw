@@ -187,6 +187,43 @@
         </div>
     </section>
 
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4" data-en="Contact Me" data-hi="मुझसे संपर्क करें">Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="text-center" data-en="Feel free to reach out if you have any questions or opportunities!" data-hi="यदि आपके कोई प्रश्न या अवसर हैं तो बेझिझक संपर्क करें!"></p>
+                <form id="contactForm" action="YOUR_WEB_APP_URL_HERE" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label" data-en="Name" data-hi="नाम">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label" data-en="Email" data-hi="ईमेल">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label" data-en="Message" data-hi="संदेश">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 mb-3" data-en="Send Email" data-hi="ईमेल भेजें">Send Email</button>
+                    <button type="button" id="whatsappSend" class="btn btn-success w-100" data-en="Send via WhatsApp" data-hi="व्हाट्सएप के माध्यम से भेजें">Send via WhatsApp</button>
+                    <div id="formMessage" class="mt-3 text-center"></div>
+                </form>
+                <div class="mt-4 text-center">
+                    <p data-en="Connect with me on:" data-hi="मुझसे जुड़ें:"></p>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-dark mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/yourprofile" target="_blank" class="text-dark mx-2"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="mailto:your.email@example.com" class="text-dark mx-2"><i class="fas fa-envelope fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
     <footer class="bg-dark text-white text-center py-3">
         <div class="container">
             <p data-en="&copy; 2025 Your Name. All rights reserved." data-hi="&copy; 2025 आपका नाम। सर्वाधिकार सुरक्षित।">&copy; 2025 Your Name. All rights reserved.</p>
