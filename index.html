@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="Web Developer Portfolio" data-hi="वेब डेवलपर पोर्टफोलियो">Web Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home" data-en="Your Name" data-hi="आपका नाम">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" data-en="Home" data-hi="होम">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-en="About" data-hi="परिचय">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-en="Skills" data-hi="कौशल">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-en="Projects" data-hi="परियोजनाएं">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-en="Language" data-hi="भाषा">
+                            Language
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item language-switcher" href="#" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item language-switcher" href="#" data-lang="hi">हिंदी</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <button class="btn btn-primary" id="colorSchemeToggle" data-en="Toggle Color" data-hi="रंग बदलें">Toggle Color</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="d-flex align-items-center vh-100 bg-light text-center">
+        <div class="container">
+            <h1 class="display-4" data-en="Hi, I'm Your Name" data-hi="नमस्ते, मैं आपका नाम हूँ">Hi, I'm Your Name</h1>
+            <p class="lead" data-en="A Passionate Web Developer" data-hi="एक उत्साही वेब डेवलपर">A Passionate Web Developer</p>
+            <a href="#projects" class="btn btn-primary btn-lg" data-en="View My Work" data-hi="मेरा काम देखें">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4" data-en="About Me" data-hi="मेरे बारे में">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p data-en="I am a dedicated web developer with a strong foundation in front-end technologies like HTML, CSS, JavaScript, and Bootstrap. I enjoy building responsive and user-friendly websites that deliver excellent user experiences." data-hi="मैं एक समर्पित वेब डेवलपर हूँ, जिसमें HTML, CSS, JavaScript और Bootstrap जैसी फ्रंट-एंड तकनीकों में एक मजबूत नींव है। मुझे प्रतिक्रियाशील और उपयोगकर्ता के अनुकूल वेबसाइटों का निर्माण करना पसंद है जो उत्कृष्ट उपयोगकर्ता अनुभव प्रदान करती हैं।"></p>
+                    <p data-en="My goal is to create impactful web solutions that are both functional and visually appealing. I'm always eager to learn new technologies and improve my skills." data-hi="मेरा लक्ष्य प्रभावशाली वेब समाधान बनाना है जो कार्यात्मक और देखने में आकर्षक दोनों हों। मैं हमेशा नई तकनीकों को सीखने और अपने कौशल में सुधार करने के लिए उत्सुक रहता हूँ।"></p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://via.placeholder.com/300" alt="Profile Picture" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4" data-en="My Skills" data-hi="मेरे कौशल">My Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <i class="fab fa-html5 fa-4x text-primary mb-3"></i>
+                        <h5 data-en="HTML5" data-hi="एचटीएमएल5">HTML5</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <i class="fab fa-css3-alt fa-4x text-primary mb-3"></i>
+                        <h5 data-en="CSS3" data-hi="सीएसएस3">CSS3</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <i class="fab fa-js fa-4x text-primary mb-3"></i>
+                        <h5 data-en="JavaScript" data-hi="जावास्क्रिप्ट">JavaScript</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <i class="fab fa-bootstrap fa-4x text-primary mb-3"></i>
+                        <h5 data-en="Bootstrap" data-hi="बूटस्ट्रैप">Bootstrap</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <i class="fab fa-react fa-4x text-primary mb-3"></i>
+                        <h5 data-en="React (Basic)" data-hi="रिएक्ट (बुनियादी)">React (Basic)</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card p-3 shadow-sm">
+                        <i class="fas fa-database fa-4x text-primary mb-3"></i>
+                        <h5 data-en="SQL (Basic)" data-hi="एसक्यूएल (बुनियादी)">SQL (Basic)</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4" data-en="My Projects" data-hi="मेरी परियोजनाएं">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title" data-en="Project One" data-hi="परियोजना एक">Project One</h5>
+                            <p class="card-text" data-en="A responsive landing page built with Bootstrap and custom CSS." data-hi="बूटस्ट्रैप और कस्टम सीएसएस के साथ बनाया गया एक प्रतिक्रियाशील लैंडिंग पृष्ठ।"></p>
+                            <a href="#" class="btn btn-primary" data-en="View Project" data-hi="परियोजना देखें">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title" data-en="Project Two" data-hi="परियोजना दो">Project Two</h5>
+                            <p class="card-text" data-en="An interactive JavaScript application showcasing API integration." data-hi="एपीआई एकीकरण का प्रदर्शन करने वाला एक इंटरैक्टिव जावास्क्रिप्ट एप्लिकेशन।"></p>
+                            <a href="#" class="btn btn-primary" data-en="View Project" data-hi="परियोजना देखें">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title" data-en="Project Three" data-hi="परियोजना तीन">Project Three</h5>
+                            <p class="card-text" data-en="A small e-commerce concept site with basic cart functionality." data-hi="बुनियादी कार्ट कार्यक्षमता के साथ एक छोटी ई-कॉमर्स अवधारणा साइट।"></p>
+                            <a href="#" class="btn btn-primary" data-en="View Project" data-hi="परियोजना देखें">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4" data-en="Contact Me" data-hi="मुझसे संपर्क करें">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center" data-en="Feel free to reach out if you have any questions or opportunities!" data-hi="यदि आपके कोई प्रश्न या अवसर हैं तो बेझिझक संपर्क करें!"></p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label" data-en="Name" data-hi="नाम">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label" data-en="Email" data-hi="ईमेल">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label" data-en="Message" data-hi="संदेश">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" data-en="Send Message" data-hi="संदेश भेजें">Send Message</button>
+                    </form>
+                    <div class="mt-4 text-center">
+                        <p data-en="Connect with me on:" data-hi="मुझसे जुड़ें:"></p>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="text-dark mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/yourprofile" target="_blank" class="text-dark mx-2"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="mailto:your.email@example.com" class="text-dark mx-2"><i class="fas fa-envelope fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p data-en="&copy; 2025 Your Name. All rights reserved." data-hi="&copy; 2025 आपका नाम। सर्वाधिकार सुरक्षित।">&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
