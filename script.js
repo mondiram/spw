@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Define your WhatsApp number (include country code, without +, 00, or spaces)
             // Example: For +91 1234567890, use '911234567890'
-            const whatsappNumber = '918076632488'; // <--- REPLACE THIS with your WhatsApp number
+            const whatsappNumber = '919433815504'; // <--- REPLACE THIS with your WhatsApp number
 
             // Construct the message
             let whatsappMessage = `Hello, I'm ${name}.\n`;
